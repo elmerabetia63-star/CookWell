@@ -3,7 +3,7 @@
 <section class="hero">
   <h1>Bienvenue sur CookWell 🍳</h1>
   <p style="color:#9aa6c4;margin-top:8px;">
-    Un site de recettes de cuisine.
+    CookWell vous propose une sélection de recettes, avec ingrédients et temps de preparation, dans une interface clair et moderne.
   </p>
 </section>
 
