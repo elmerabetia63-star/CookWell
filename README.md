@@ -30,4 +30,25 @@ Le site propose une interface moderne et responsive, avec un système d’authen
 ---
 
 ## 📁 Structure du projet
-
+cookwell/
+│── index.php
+│── recettes.php
+│── contact.php
+│── theme.php
+│
+├── assets/
+│ ├── images/
+│ └── audio/
+│
+├── includes/
+│ ├── header.php
+│ ├── footer.php
+│ └── db.php
+│
+├── auth/
+│ ├── login.php
+│ ├── register.php
+│ └── logout.php
+│
+└── user/
+└── dashboard.php
