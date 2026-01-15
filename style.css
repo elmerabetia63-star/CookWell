@@ -1,0 +1,33 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+body{background:#0b1220;color:#eaf0ff;}
+a{text-decoration:none;color:#eaf0ff;}
+
+.container{width:min(1100px,92%);margin:auto;}
+
+.topbar{background:#111a2e;padding:16px 0;margin-bottom:20px;}
+.topbar .container{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+nav{display:flex;gap:12px;flex-wrap:wrap;}
+nav a{padding:6px 10px;border-radius:10px;}
+nav a:hover{background:rgba(255,255,255,0.07);}
+
+.btn{background:#4da3ff;color:#071120;font-weight:bold;border-radius:12px;padding:8px 12px;}
+
+.hero{padding:25px 0;}
+.card{background:#111a2e;border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:18px;margin:14px 0;}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+
+.footer{margin-top:30px;padding:18px 0;border-top:1px solid rgba(255,255,255,0.1);color:#9aa6c4;}
+input{width:100%;padding:12px;margin:6px 0;border-radius:12px;border:1px solid rgba(255,255,255,0.15);background:#0a1020;color:#fff;}
+label{display:block;margin-top:12px;color:#9aa6c4;}
+.error{color:#ff7b7b;margin-top:10px;}
+.success{color:#8bffb5;margin-top:10px;}
+/* THEME LIGHT (cookie) */
+body.light {
+    background: #f5f7ff;
+    color: #111;
+  }
+  body.light a { color:#111; }
+  body.light .topbar { background:#ffffff; border-bottom:1px solid #ddd; }
+  body.light .card { background:#ffffff; color:#111; border:1px solid #e5e5e5; }
+  body.light input { background:#fff; color:#111; border:1px solid #ccc; }
+  body.light .footer { color:#333; }
